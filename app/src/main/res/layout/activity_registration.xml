@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    tools:context=".RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name_et"
+                style="@style/edittext"
+                android:hint="@string/user_name"/>
+            <EditText
+                android:id="@+id/phone_et"
+                style="@style/edittext"
+                android:hint="@string/user_phone"
+                android:inputType="number"/>
+            <EditText
+                android:id="@+id/password_et"
+                style="@style/edittext"
+                android:hint="@string/user_password_hint"
+                android:inputType="textPassword" />
+            <EditText
+                android:id="@+id/email_et"
+                style="@style/edittext"
+                android:hint="@string/user_email"
+                android:inputType="textEmailAddress"/>
+            <EditText
+                android:id="@+id/organization_et"
+                style="@style/edittext"
+                android:hint="@string/user_organization"/>
+            <EditText
+                android:id="@+id/position_et"
+                style="@style/edittext"
+                android:hint="Position"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:id="@+id/reg_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:text="Registration"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

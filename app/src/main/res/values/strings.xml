@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CourseProject</string>
+    <string name="user_name">Name</string>
+    <string name="user_phone">Phone number</string>
+    <string name="user_password_hint">fg@!123FG</string>
+    <string name="user_email">Email ID</string>
+    <string name="user_position">Position</string>
+    <string name="user_organization">Organization</string>
+    <string name="questionnaire">Questionnaire</string>
+    <string name="tally">Tally</string>
+</resources>
